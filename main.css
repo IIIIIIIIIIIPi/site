@@ -16,12 +16,25 @@
 
 @font-face {
     font-family: 'Outfit-Black-m';
-    src: url(./fonts/Outfit-Bold.ttf);
+    src: url(./fonts/fonts_h1/Outfit-Bold.ttf);
 }
 
 @font-face{
     font-family: 'Prata-Regular-m';
-    src: url(./fonts/fonts_h2/Prata-Regular.ttf);
+    src: url(./fonts/fonts_h2/Lora-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Manrope-ExtraLight';
+    src: url(./fonts/fonts_h2/Manrope-ExtraLight.ttf);
+}
+@font-face{
+    font-family: 'Manrope-Light';
+    src: url(./fonts/fonts_h2/Manrope-Light.ttf);
+}
+@font-face{
+    font-family: 'Manrope-Regular';
+    src: url(./fonts/fonts_h2/Manrope-Regular.ttf);
 }
 
 .header{
@@ -40,7 +53,7 @@
     text-align: center;
 }
 
-.head_title_h1{
+.head_title{
     width: min-content;
     margin-left: auto;
     margin-right: auto;
@@ -52,8 +65,8 @@ h1{
     font-size: var(--font_size_h1);
     color: white;
 }
-h2{
-    font-family: Prata-Regular-m;
+h3{
+    font-family: Manrope-ExtraLight;
     color: white;
-    font-size: 1.25em
+    font-size: .85em;
 }
