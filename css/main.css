@@ -1,0 +1,23 @@
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    background: url(/img/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 125%;
+
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    border: 3px solid green;
+
+}
