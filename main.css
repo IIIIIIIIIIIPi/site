@@ -11,6 +11,9 @@
     --index: calc(1vw + 1vh);
     --font_size_h1:calc(var(--index)*5);
     --font_size_h2:calc(var(--index)*2);
+    --color_main_text: rgb(232, 232, 232);
+    --color_sub_text: rgb(213, 212, 212);
+    --color_header_transparent: rgba(232, 232, 232,.3);
 }
 
 
@@ -20,21 +23,12 @@
 }
 
 @font-face{
-    font-family: 'Prata-Regular-m';
-    src: url(./fonts/fonts_h2/Lora-Regular.ttf);
-}
-
-@font-face{
-    font-family: 'Manrope-ExtraLight';
+    font-family: 'Manrope-ExtraLight-m';
     src: url(./fonts/fonts_h2/Manrope-ExtraLight.ttf);
 }
 @font-face{
-    font-family: 'Manrope-Light';
-    src: url(./fonts/fonts_h2/Manrope-Light.ttf);
-}
-@font-face{
-    font-family: 'Manrope-Regular';
-    src: url(./fonts/fonts_h2/Manrope-Regular.ttf);
+    font-family: 'Outfit-Medium-m';
+    src: url(./fonts/font_h4/Manrope-SemiBold.ttf);
 }
 
 .header{
@@ -63,10 +57,19 @@
 h1{
     font-family: Outfit-Black-m;
     font-size: var(--font_size_h1);
-    color: white;
+    color: var(--color_main_text);
+
 }
 h3{
-    font-family: Manrope-ExtraLight;
-    color: white;
+    font-family: Manrope-ExtraLight-m;
+    color: var(--color_sub_text);
     font-size: .85em;
+}
+.hh4{
+    position: absolute;
+}
+h4{
+    color: var(--color_header_transparent);
+    font-family: Manrope-ExtraLight-m;
+    font-size: 1.25em;
 }
