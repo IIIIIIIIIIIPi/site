@@ -58,7 +58,6 @@ h1{
     font-family: Outfit-Black-m;
     font-size: var(--font_size_h1);
     color: var(--color_main_text);
-
 }
 h3{
     font-family: Manrope-ExtraLight-m;
@@ -67,9 +66,10 @@ h3{
 }
 .hh4{
     position: absolute;
+    
 }
 h4{
     color: var(--color_header_transparent);
     font-family: Manrope-ExtraLight-m;
-    font-size: 1.25em;
+    font-size: calc(var(--font_size_h1)/5);
 }
