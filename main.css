@@ -10,12 +10,18 @@
 :root{
     --index: calc(1vw + 1vh);
     --font_size_h1:calc(var(--index)*5);
+    --font_size_h2:calc(var(--index)*2);
 }
 
 
 @font-face {
     font-family: 'Outfit-Black-m';
     src: url(./fonts/Outfit-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Prata-Regular-m';
+    src: url(./fonts/fonts_h2/Prata-Regular.ttf);
 }
 
 .header{
@@ -36,7 +42,6 @@
 
 .head_title_h1{
     width: min-content;
-    border: 3px solid green;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30vh;
@@ -46,4 +51,9 @@ h1{
     font-family: Outfit-Black-m;
     font-size: var(--font_size_h1);
     color: white;
+}
+h2{
+    font-family: Prata-Regular-m;
+    color: white;
+    font-size: 1.25em
 }
