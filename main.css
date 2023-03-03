@@ -1,20 +1,23 @@
+@import url(./header.css);
 *{
     overflow-x: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+:root{
+    --index: calc(1vw + 1vh);
+}
 
 .header{
+    
     width: 100vw;
     height: 100vh;
     background: url(./img/1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 125%;
+    background-size: calc(var(--index)*75);
     border: 3px solid red;
-
 }
 .main{
     width: 100vw;
