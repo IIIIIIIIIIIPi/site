@@ -130,7 +130,7 @@ h4{
     font-family: Manrope-ExtraBold-m;
     padding-left: 1vh;
     font-size: var(--font_size_h2);
-    padding-top: var(--gallery_pad);
+    margin-top: var(--gallery_pad);
 }
 .gallery_text__p{
     padding-top: 2vh;
@@ -149,4 +149,7 @@ h4{
 }
 .gr_L2{
     margin-top: calc(var(--gallery_pad)*.8);
+}
+.tb_L2{
+    margin-top: 0;
 }
