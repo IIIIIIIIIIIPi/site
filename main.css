@@ -88,11 +88,12 @@ h4{
 }
 .main_gallery{
     color: white;
-    
 }
+
 .gallery{
     display: flex;
     /*padding: calc(var(--index)*5) 0 ;*/
+    overflow-y: hidden;
 
 }
 .gallery >*{
@@ -114,10 +115,10 @@ h4{
     border-radius: 8px;
 }
 .gallery__left {
-    margin-top: calc(var(--gallery_pad)*2);
+    margin-top: calc(var(--gallery_pad)*.5);
 }
 .gallery__right .gallery__item{
-    margin-top: var(--gallery_pad);
+    margin-top: calc(var(--gallery_pad)*.6);
 }
 
 .text_block{

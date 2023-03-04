@@ -6,58 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./main.css">
+
+    <script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<script src="js/app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
-        <div class="black_box">
-            <div class="head_title">
-                <div class="main_title">
-                    <div class="hh4">
-                        <h4>
-                            Строительная компания
-                        </h4>
-                    </div>
-                    <h1>
-                        TeploDomov
-                    </h1>
-                </div>
-            
-                <h3>
-                    Мы занимаемся строительством и проектировкой турецках бань, парных, хамамов, каминов, спа комплексов, зон отдыха, каминов и много-много чего еще...
-                </h3>
-            </div>
-        </div>
-    </div>
-
-    <div class="main_gallery">
-        <div class="container">
-            <div class="gallery">
-                <div class="gallery__left">
+    <div class="wrapper">
+        <div class="content">
+            <div data-speed="1.2" class="header">
+                <div class="black_box">
+                    <div class="head_title">
+                        <div class="main_title">
+                            <div class="hh4">
+                                <h4>
+                                    Строительная компания
+                                </h4>
+                            </div>
+                            <h1>
+                                TeploDomov
+                            </h1>
+                        </div>
                     
-                    <img src="./img/fireplace/k1.jpg" alt="" class="gallery__item">
-                    <div class="text_block gallery__item">
-                        <h2 class="gallery_header__h">Камины</h2>
-                        <p class="gallery_text__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae distinctio libero facere nulla, doloremque ipsum quibusdam explicabo quos, minus vero dolorem accusantium temporibus eveniet at facilis nesciunt culpa earum?</p>
+                        <h3>
+                            Мы занимаемся строительством и проектировкой турецках бань, парных, хамамов, каминов, спа комплексов, зон отдыха, каминов и много-много чего еще...
+                        </h3>
                     </div>
-
-                </div>
-                <div class="gallery__right">
-                    <img src="./img/fireplace/k2.jpg" alt="" class="gallery__item">
-                    <img src="./img/fireplace/k3.jpg" alt="" class="gallery__item">
                 </div>
             </div>
-            <img src="./img/bath/ss.jfif" alt="" class="gallery__item ss">
-            <div class="gallery">
-                <div class="gallery__left gl_L2">
-                    <img src="./img/bath/S3.jpg" alt="" class="gallery__item">
-                    <img src="./img/bath/S2.jpg" alt="" class="gallery__item">
-                </div>
-                <div class="gallery__right gr_L2">
-                    <img src="./img/bath/S1.jpg" alt="" class="gallery__item tb_L2">
-                    <div class="text_block gallery__item bath_text">
-                        <h2 class="gallery_header__h tb_L2">Сауны</h2>
-                        <p class="gallery_text__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae distinctio libero facere nulla, doloremque ipsum quibusdam explicabo quos, minus vero dolorem accusantium temporibus eveniet at facilis nesciunt culpa earum?</p>
+        
+            <div class="main_gallery">
+                <div class="container">
+                    <div class="gallery">
+                        <div  data-speed="1" class="gallery__left ">
+                            
+                            <img src="./img/fireplace/k1.jpg" alt="" class="gallery__item">
+                            <div class="text_block gallery__item">
+                                <h2 class="gallery_header__h">Камины</h2>
+                                <p class="gallery_text__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae distinctio libero facere nulla, doloremque ipsum quibusdam explicabo quos, minus vero dolorem accusantium temporibus eveniet at facilis nesciunt culpa earum?</p>
+                            </div>
+        
+                        </div>
+                        <div  data-speed=".9" class="gallery__right">
+                            <img src="./img/fireplace/k2.jpg" alt="" class="gallery__item">
+                            <img src="./img/fireplace/k3.jpg" alt="" class="gallery__item">
+                        </div>
+                    </div>
+                    <img data-speed="1.2" src="./img/bath/ss.jfif" alt="" class="gallery__item ss">
+                    <div class="gallery">
+                        <div data-speed=".9" class="gallery__left gl_L2">
+                            <img src="./img/bath/S3.jpg" alt="" class="gallery__item">
+                            <img src="./img/bath/S2.jpg" alt="" class="gallery__item">
+                        </div>
+                        <div data-speed="1" class="gallery__right gr_L2">
+                            <div class="text_block gallery__item bath_text">
+                                <h2 class="gallery_header__h tb_L2">Сауны</h2>
+                                <p class="gallery_text__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae distinctio libero facere nulla, doloremque ipsum quibusdam explicabo quos, minus vero dolorem accusantium temporibus eveniet at facilis nesciunt culpa earum?</p>
+                            </div>
+                            <img src="./img/bath/S1.jpg" alt="" class="gallery__item tb_L2">
+
+                        </div>
                     </div>
                 </div>
             </div>
