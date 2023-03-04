@@ -5,9 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--color_background);
+    
 
 }
 
+.header, .gallery >*{
+    will-change: transform;
+}
 
 :root{
     --index: calc(1vw + 1vh);
@@ -113,9 +117,10 @@ h4{
     max-height: calc(var(--index)*32);
     margin-bottom: var(--gallery_pad);
     border-radius: 8px;
+    box-shadow: .5px .5px 50px rgba(56, 56, 56, 0.2);
 }
 .gallery__left {
-    margin-top: calc(var(--gallery_pad)*.5);
+    margin-top: calc(var(--gallery_pad)*2);
 }
 .gallery__right {
     margin-top: calc(var(--gallery_pad));
@@ -127,13 +132,14 @@ h4{
     margin-left: 2vh;
     color: var(--color_main_text);
     position: relative;
+    box-shadow: none;
 }
 
 .gallery_header__h{
     font-family: Manrope-ExtraBold-m;
     padding-left: 1vh;
     font-size: var(--font_size_h2);
-    margin-top: var(--gallery_pad);
+    
 }
 .gallery_text__p{
     padding-top: 2vh;
