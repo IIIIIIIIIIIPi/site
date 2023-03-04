@@ -121,6 +121,7 @@ h4{
 }
 
 .text_block{
+    margin-left: 2vh;
     color: var(--color_main_text);
     position: relative;
 }
@@ -138,10 +139,11 @@ h4{
     font-size: var(--font_size_p);
 }
 .ss{
-    padding-left: 7vh;
     max-width: 80vw;
-    border-radius: 8px;
+    margin-left: 12vh;
+    margin-bottom: 0;
 }
+
 .gl_L2{
     margin-top: calc(var(--gallery_pad)*1.3);
 }
